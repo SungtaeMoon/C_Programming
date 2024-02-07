@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for SRC_LIST in `ls -1 *.c | awk 'BEGIN {FS=".c"} {print $1}'`
+do 
+    mk ${SRC_LIST}
+done

@@ -1,0 +1,4 @@
+Figure 2.13  Build C program to print all supported configuration limits
+Figure 2.14  Print all possible sysconf and pathconf values
+Figure 2.16  Dynamically allocate space for a pathname
+Figure 2.17  Determine the number of file descriptors

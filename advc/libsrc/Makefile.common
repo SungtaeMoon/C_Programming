@@ -1,0 +1,18 @@
+
+#
+include Makefile.objs
+ 
+#
+# Client Library
+#
+all: $(TARGET)
+
+libadvc.a:$(OBJS)
+	ar $(AR_FLAG) libadvc.a $(OBJS)
+	cp libadvc.a $(ADVC_DIR)/lib
+
+#errapi.o logapi.o: apue.h 
+
+#
+clean:
+	-rm -f *.o core *.a

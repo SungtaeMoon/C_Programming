@@ -1,0 +1,3 @@
+#
+ADVC_DIR = /private/advc
+OBJS     = errapi.o logapi.o fig_3.12.o
