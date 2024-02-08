@@ -1,3 +1,3 @@
 #
-ADVC_DIR = /private/advc
+ADVC_DIR = /private/C_Programming/advc
 OBJS     = errapi.o logapi.o fig_3.12.o

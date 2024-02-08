@@ -4,7 +4,7 @@ TARGET=$1
 CURR_DIR=`pwd`
 export COMP_TARGET=${CURR_DIR}/$TARGET
 
-make -f /private/advc/shl/Makefile
+make -f /private/C_Programming/advc/shl/Makefile
 
 cat err
 #rm -f $1.o
